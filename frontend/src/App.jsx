@@ -5,6 +5,8 @@ import NavBar from './components/NavBar'
 import About from './pages/About'
 import Collection from './pages/Collection'
 import Contact from './pages/Contact'
+import Cart from './pages/Cart'
+import Login from './pages/Login'
 
 
 const App = () => {
@@ -19,6 +21,10 @@ const App = () => {
          <Route path='/collection' element={<Collection/>} />
 
          <Route path='/contact' element={<Contact/>} />
+         <Route path='/cart' element={<Cart/>} />
+         <Route path='/login' element={<Login/>} />
+
+
 
       </Routes> 
 
