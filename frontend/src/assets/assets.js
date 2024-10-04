@@ -56,6 +56,10 @@ import p_img52 from './p_img52.png'
 
 
 import logo from './logo.png'
+import jumialogo from './Jumia-Logo.png'
+import like from './like icon.png'
+
+
 import fetchfind from './fetchfind.png'
 
 import hero_img from './hero_img.png'
@@ -78,6 +82,8 @@ import cross_icon from './cross_icon.png'
 
 export const assets = {
     logo,
+    jumialogo,
+    like,
     fetchfind,
     hero_img,
     cart_icon,

@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { createContext, useContext, useState } from 'react'
 import {assets} from '../assets/assets'
 import { Link, NavLink } from 'react-router-dom'
 import { ShopContext } from '../context/ShopContext';
@@ -78,4 +78,24 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+
+
+
+export const SearchContext = createContext()
+
+const SearchContextProvider = (props) =>{
+    const [visible,setVisible] = useState(false)
+
+
+    const value = {
+        visible, setVisible
+    }
+
+    return (
+        <SearchContext.Provider value={value}>
+            {props.children}
+        </SearchContext.Provider>
+    )
+}
+
+
