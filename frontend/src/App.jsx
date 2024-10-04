@@ -12,6 +12,7 @@ import MobileNaBar from './components/MobileNaBar'
 import JumiaNavBar from './components/JumiaNavBar'
 import NavDropDown from './components/NavDropDown'
 import NavDropDownSecond from './components/NavSecondDd'
+import Hambugger from './components/Hambugger'
 
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
       <JumiaNavBar/>
       <NavDropDown/>
       <NavDropDownSecond/>
+      <Hambugger/>
 
 
       <Routes>  

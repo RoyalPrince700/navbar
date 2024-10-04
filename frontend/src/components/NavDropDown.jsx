@@ -11,7 +11,7 @@ const NavDropDown = () => {
   return (
     <div
       ref={dropdownRef} // Attach the ref to the dropdown container
-      className={`absolute left-[1080px] pt-0 transition-all ${
+      className={`absolute left-[1000px] pt-0 transition-all ${
         dropVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-0'
       }`}
     >

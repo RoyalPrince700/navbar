@@ -6,6 +6,8 @@ const SearchContextProvider = (props) => {
   const [visible, setVisible] = useState(false);
   const [dropVisible, setDropVisible] = useState(false);
   const [dropVisibleSecond, setDropVisibleSecond] = useState(false);
+  const [mobileVisible, setMobileVisible] = useState(false);
+
 
   const [search, setSearch] = useState("");
   const [showSearch, setShowSearch] = useState(false);
@@ -56,6 +58,8 @@ const SearchContextProvider = (props) => {
   }, [dropdownRef, dropdownRefSecond]);
 
   const value = {
+    mobileVisible,
+    setMobileVisible,
     search,
     setSearch,
     showSearch,
