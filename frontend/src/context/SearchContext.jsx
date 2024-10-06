@@ -7,6 +7,15 @@ const SearchContextProvider = (props) => {
   const [dropVisible, setDropVisible] = useState(false);
   const [dropVisibleSecond, setDropVisibleSecond] = useState(false);
   const [mobileVisible, setMobileVisible] = useState(false);
+  const [macDrop,setMacDrop] = useState(true)
+  const [ipadDrop,setIpadDrop] = useState(false)
+  const [iphoneDrop,setIphoneDrop] = useState(false)
+  const [supportDrop,setSupportDrop] = useState(false)
+  const [buyDrop,setBuyDrop] = useState(false)
+
+
+
+
 
 
   const [search, setSearch] = useState("");
@@ -33,6 +42,8 @@ const SearchContextProvider = (props) => {
     setArrowRotated(false);
   };
 
+  
+
   // Close dropdown if clicked outside
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -48,6 +59,10 @@ const SearchContextProvider = (props) => {
         setDropVisibleSecond(false);
         setArrowRotatedSecond(false);
       }
+
+   
+        
+      
     };
 
     // Add event listener to the whole document
@@ -58,6 +73,11 @@ const SearchContextProvider = (props) => {
   }, [dropdownRef, dropdownRefSecond]);
 
   const value = {
+    buyDrop,setBuyDrop,
+    supportDrop,setSupportDrop,
+    iphoneDrop,setIphoneDrop,
+    ipadDrop,setIpadDrop,
+    macDrop,setMacDrop,
     mobileVisible,
     setMobileVisible,
     search,

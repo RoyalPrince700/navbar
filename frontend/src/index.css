@@ -5,3 +5,11 @@
 a.active hr {
     display: block;
 }
+
+body {
+    background-color: black; /* Very close to black */
+  }
+
+  .iphone {
+    background-color: #181818;
+  }

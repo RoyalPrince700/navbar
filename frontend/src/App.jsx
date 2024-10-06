@@ -13,6 +13,12 @@ import JumiaNavBar from './components/JumiaNavBar'
 import NavDropDown from './components/NavDropDown'
 import NavDropDownSecond from './components/NavSecondDd'
 import Hambugger from './components/Hambugger'
+import AppleNavBar from './components/Apple/AppleNavBar'
+import MacDrop from './components/Apple/MacDrop'
+import IpadDrop from './components/Apple/IpadDrop'
+import IphoneDrop from './components/Apple/IphoneDrop'
+import SupportDrop from './components/Apple/SupportDrop'
+import BuyDrop from './components/Apple/BuyDrop'
 
 
 const App = () => {
@@ -21,10 +27,20 @@ const App = () => {
       {/* <NavBar/> */}
       {/* <MobileNaBar/> */}
       <SearchBox/>
-      <JumiaNavBar/>
-      <NavDropDown/>
-      <NavDropDownSecond/>
-      <Hambugger/>
+      {/* ---------jumia--------- */}
+      {/* <JumiaNavBar/> */}
+      {/* <NavDropDown/> */}
+      {/* <NavDropDownSecond/> */}
+      {/* <Hambugger/> */}
+
+      {/*------------------- apple---------------------- */}
+      <AppleNavBar/>
+      <MacDrop/>
+      <IpadDrop/>
+      <IphoneDrop/>
+      <SupportDrop/>
+      <BuyDrop/>
+     
 
 
       <Routes>  
@@ -37,6 +53,8 @@ const App = () => {
          <Route path='/contact' element={<Contact/>} />
          <Route path='/cart' element={<Cart/>} />
          <Route path='/login' element={<Login/>} />
+      
+
 
 
 
