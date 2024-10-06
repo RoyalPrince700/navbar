@@ -7,11 +7,14 @@ const SearchContextProvider = (props) => {
   const [dropVisible, setDropVisible] = useState(false);
   const [dropVisibleSecond, setDropVisibleSecond] = useState(false);
   const [mobileVisible, setMobileVisible] = useState(false);
-  const [macDrop,setMacDrop] = useState(true)
+  const [macDrop,setMacDrop] = useState(false)
   const [ipadDrop,setIpadDrop] = useState(false)
   const [iphoneDrop,setIphoneDrop] = useState(false)
   const [supportDrop,setSupportDrop] = useState(false)
   const [buyDrop,setBuyDrop] = useState(false)
+  const [appleSearch,setAppleSearch] = useState(false)
+  const [appleMobile,setAppleMobile] = useState(false)
+  const [macMobile,setMacMobile] = useState(false)
 
 
 
@@ -73,6 +76,9 @@ const SearchContextProvider = (props) => {
   }, [dropdownRef, dropdownRefSecond]);
 
   const value = {
+    macMobile,setMacMobile,
+    appleMobile,setAppleMobile,
+    appleSearch,setAppleSearch,
     buyDrop,setBuyDrop,
     supportDrop,setSupportDrop,
     iphoneDrop,setIphoneDrop,
