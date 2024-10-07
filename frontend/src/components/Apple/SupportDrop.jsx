@@ -30,7 +30,7 @@ const SupportDrop = () => {
                   <NavLink to='/' onClick={()=>setIphoneDrop(false)}><p className='text-[12px] text-slate-200'>Contact Us</p></NavLink>
 
           </div>
-          <div className='flex flex-col '>
+          <div className='flex flex-col gap-2'>
                   <NavLink to='/' onClick={()=>setIphoneDrop(false)}> <p className='text-[12px] text-slate-500 mb-3'>Helpful Topics</p></NavLink>
                   <NavLink to='/' onClick={()=>setIphoneDrop(false)}><p className='text-[12px] text-slate-200'>Apple Account and Password</p></NavLink>
                   <NavLink to='/' onClick={()=>setIphoneDrop(false)}><p className='text-[12px] text-slate-200'>Billing & Subscriptions</p></NavLink>

@@ -13,6 +13,8 @@ const SearchContextProvider = (props) => {
   const [supportDrop,setSupportDrop] = useState(false)
   const [buyDrop,setBuyDrop] = useState(false)
   const [appleSearch,setAppleSearch] = useState(false)
+  const [appleSearchMobile,setAppleSearchMobile] = useState(false)
+
   const [appleMobile,setAppleMobile] = useState(false)
   const [macMobile,setMacMobile] = useState(false)
 
@@ -76,6 +78,7 @@ const SearchContextProvider = (props) => {
   }, [dropdownRef, dropdownRefSecond]);
 
   const value = {
+    appleSearchMobile,setAppleSearchMobile,
     macMobile,setMacMobile,
     appleMobile,setAppleMobile,
     appleSearch,setAppleSearch,

@@ -15,6 +15,7 @@ import SupportDrop from './components/Apple/SupportDrop'
 import BuyDrop from './components/Apple/BuyDrop'
 import SearchBar from './components/Apple/SearchBar'
 import MacMobile from './components/Apple/MacMobile'
+import SearchMobile from './components/Apple/SearchMobile'
 
 const App = () => {
   return (
@@ -34,6 +35,7 @@ const App = () => {
         <BuyDrop />
         <SearchBar/>
         <MacMobile/>
+        <SearchMobile/>
       
       </div>
 
