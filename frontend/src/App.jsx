@@ -16,18 +16,22 @@ import BuyDrop from './components/Apple/BuyDrop'
 import SearchBar from './components/Apple/SearchBar'
 import MacMobile from './components/Apple/MacMobile'
 import SearchMobile from './components/Apple/SearchMobile'
+import CourseraNavBar from './components/Cousera/CourseraNavBar'
 
 const App = () => {
   return (
     <div className='relative'>
+      {/*------------------------- Cousera----------------- */}
+      <CourseraNavBar/>
+
       {/* Search Box */}
-      <SearchBox/>
+      {/* <SearchBox/> */}
 
       {/* Apple NavBar */}
-      <AppleNavBar/>
+      {/* <AppleNavBar/> */}
 
       {/* Dropdowns */}
-      <div className='relative'>
+      {/* <div className='relative'>
         <MacDrop />
         <IpadDrop />
         <IphoneDrop />
@@ -37,7 +41,7 @@ const App = () => {
         <MacMobile/>
         <SearchMobile/>
       
-      </div>
+      </div> */}
 
       {/* Routes for Pages */}
       <Routes>  

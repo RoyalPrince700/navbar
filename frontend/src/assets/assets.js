@@ -2,6 +2,8 @@ import logo from './logo.png'
 import jumialogo from './Jumia-Logo.png'
 import like from './like icon.png'
 import appleLogo from './appleLogo.png'
+import courseraLogo from './coursera.png'
+
 
 
 
@@ -26,6 +28,7 @@ import stripe_logo from './stripe_logo.png'
 import cross_icon from './cross_icon.png'
 
 export const assets = {
+    courseraLogo,
     logo,
     appleLogo,
     jumialogo,
