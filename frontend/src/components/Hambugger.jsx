@@ -20,8 +20,8 @@ const Hambugger = () => {
 const {mobileVisible,setMobileVisible} = useContext(SearchContext)
 
   return (
-    <div className={`bg-white left-0 top-0 bottom-0  h-full absolute font-semibold overflow-hidden transition-transform duration-300 ${mobileVisible ? 'w-[85vw]' : 'w-0'}`}>
-        <div className='px-5 md:px-10 flex items-center gap-6'>
+    <div className={`bg-white  left-0 top-0 mb-16 bottom-0  h-[100vh] absolute font-semibold overflow-hidden transition-transform duration-300 ${mobileVisible ? 'w-[85vw]' : 'w-0'}`}>
+        <div className='px-5 md:px-10 flex items-center  gap-6'>
             <img src={assets.cross_icon} onClick={() => setMobileVisible(false)} className='h-4 cursor-pointer' alt="" />
             <img src={assets.jumialogo} className='w-28' alt="" />   
         </div>

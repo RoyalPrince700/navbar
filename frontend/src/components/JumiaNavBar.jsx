@@ -28,7 +28,7 @@ const JumiaNavBar = () => {
         
         <div className='flex items-center gap-3 sm:gap-7'>
           <GiHamburgerMenu onClick={() => setMobileVisible(true)} className='lg:hidden flex text-3xl cursor-pointer' />
-          <img src={assets.jumialogo} className="w-28 lg:w-36 lg:min-w-36" alt="" />
+          <img src={assets.jumialogo} className="w-28 lg:w-36 lg:min-w-36 cursor-pointer" alt="" />
         </div>
 
         {/* Tab and mobile views */}

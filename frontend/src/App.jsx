@@ -17,11 +17,22 @@ import SearchBar from './components/Apple/SearchBar'
 import MacMobile from './components/Apple/MacMobile'
 import SearchMobile from './components/Apple/SearchMobile'
 import CourseraNavBar from './components/Cousera/CourseraNavBar'
+import JumiaNavBar from './components/JumiaNavBar'
+import NavDropDown from './components/NavDropDown'
+import NavDropDownSecond from './components/NavSecondDd'
+import Hambugger from './components/Hambugger'
+import CourseraMobile from './components/Cousera/courseraMobile'
 
 const App = () => {
   return (
     <div className='relative'>
+       {/* ---------jumia--------- */}
+      {/* <Hambugger/> */}
+      {/* <JumiaNavBar/> */}
+     {/* <NavDropDown/> */}
+      {/* <NavDropDownSecond/> */}
       {/*------------------------- Cousera----------------- */}
+      <CourseraMobile/>
       <CourseraNavBar/>
 
       {/* Search Box */}
